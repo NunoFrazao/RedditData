@@ -14,8 +14,8 @@ use App\Http\Resources\LikeResource;
 
 class RedditController extends Controller
 {
-    private $clientId = 'yiy_49PcMVaLpIA3h1_-Mg';
-    private $clientSecret = '6Y4I9Rq_B1_S9SA-l1Sv5AI4pnoa3w';
+    private $clientId = '<CLIENT_ID>';
+    private $clientSecret = '<CLIENT_SECRET>';
     private $redditUserAgent = 'PLN Test/0.1 by PLN_user1';
 
     public function getAccessToken()
