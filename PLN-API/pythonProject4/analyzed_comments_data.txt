@@ -1,0 +1,92 @@
+[
+    {
+        "id": "kirp0nb",
+        "body": "I like the iPhone color tones better but it's a personal choice, anyways the night photography is objectively better on iPhone.\n\nEdit: [The original video](https://youtu.be/jY3m6g5ThwU?si=0ws5froXKbsDjoRr).",
+        "scores": {
+            "Negativo": 0.009212923236191273,
+            "Neutro": 0.11744040995836258,
+            "Positivo": 0.8733466267585754
+        }
+    },
+    {
+        "id": "kis74iu",
+        "body": "The iPhone seems more true to life colour wise and most importantly more consistent.",
+        "scores": {
+            "Negativo": 0.0022772541269659996,
+            "Neutro": 0.04647855833172798,
+            "Positivo": 0.9512442350387573
+        }
+    },
+    {
+        "id": "kise19c",
+        "body": "Thanks for the comparison. Why does this dude look so angry or he has to go poop, or maybe he\u2019s angry cause he has to go poop.",
+        "scores": {
+            "Negativo": 0.8669850826263428,
+            "Neutro": 0.11910122632980347,
+            "Positivo": 0.013913607224822044
+        }
+    },
+    {
+        "id": "kitwfew",
+        "body": "honestly iphone just looks way cleaner and better. and looking at the night photos its very clear that apple still wins.",
+        "scores": {
+            "Negativo": 0.005526342429220676,
+            "Neutro": 0.03621089085936546,
+            "Positivo": 0.9582627415657043
+        }
+    },
+    {
+        "id": "kirz7zh",
+        "body": "I'm split down the middle on these. Some look better from the Samsung and some look better from the iPhone. One thing is for sure, they both have really good cameras. I think it really just comes down to personal preference because there's nothing in it between these two.",
+        "scores": {
+            "Negativo": 0.023779897019267082,
+            "Neutro": 0.1763923168182373,
+            "Positivo": 0.7998277544975281
+        }
+    },
+    {
+        "id": "kiu7uwb",
+        "body": "- Hey Bixby, can you please make me taller, more muscular, replace my bicycle with a Lamborghini and the inflatable doll I\u2019m hugging with 3 top models?\n- Yessir!\n- Oh, and can you also remove the fucking purple tone from every freaking picture?\n- No can do sir",
+        "scores": {
+            "Negativo": 0.6342913508415222,
+            "Neutro": 0.277622252702713,
+            "Positivo": 0.08808635920286179
+        }
+    },
+    {
+        "id": "kisbd5r",
+        "body": "In regular light conditions both phones are really good, but in low light conditions the Samsung does really poorly. Super grainy, purplish tint, everything is smoothed. I had an iPhone 12 Pro and I upgraded to the Galaxy S23 over the summer and the low light camera performance (and front camera) were both really awful and I ended up switching back to iPhone.",
+        "scores": {
+            "Negativo": 0.3778783082962036,
+            "Neutro": 0.3678033649921417,
+            "Positivo": 0.25431835651397705
+        }
+    },
+    {
+        "id": "kiu9c9r",
+        "body": "Nicely done, iPhone is way better in all shots.",
+        "scores": {
+            "Negativo": 0.004006349015980959,
+            "Neutro": 0.03369324654340744,
+            "Positivo": 0.9623003602027893
+        }
+    },
+    {
+        "id": "kisekmr",
+        "body": "It\u2019s like Samsungs algorithms at night are still from 2008.",
+        "scores": {
+            "Negativo": 0.4120549261569977,
+            "Neutro": 0.523024320602417,
+            "Positivo": 0.06492075324058533
+        }
+    },
+    {
+        "id": "kishaaj",
+        "body": "Samsung\u2019s night shots are hilariously bad.",
+        "scores": {
+            "Negativo": 0.8690088987350464,
+            "Neutro": 0.11161487549543381,
+            "Positivo": 0.019376233220100403
+        }
+    }
+]

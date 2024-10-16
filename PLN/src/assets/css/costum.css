@@ -1,0 +1,35 @@
+.addContact {
+  background-color: #181c30;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+}
+.addContactDiv {
+  transition: all 0.2s ease-in-out;
+}
+.addContactDiv:hover {
+  transform: scale(1.1);
+  color: white;
+}
+
+.tableActions,
+.tableActionsDelete {
+  color: #8a8a8a;
+}
+.tableActionsDelete:hover {
+  color: #a12020;
+}
+.tableActions:hover {
+  color: #181c30;
+}
+
+#formAddContactTitle,
+#formLoginTitle,
+#formRegisterTitle {
+  background-image: linear-gradient(310deg, #181c30, #2b425f);
+}
+#formAddContactButton,
+#formLoginSubmitButton,
+#formRegisterSubmitButton {
+  background-image: linear-gradient(310deg, #181c30, #2b425f);
+}

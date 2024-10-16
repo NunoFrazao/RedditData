@@ -1,0 +1,179 @@
+{
+    "data": [
+        {
+            "id": "17mspz0",
+            "title": "Samsung to Follow iPhone 15 Pro and Use Titanium for Galaxy S24 Ultra",
+            "selftext": null,
+            "thumbnail": "https:\/\/b.thumbs.redditmedia.com\/2evNIDu82Djpe11NksuV9QBaNXss80XQE5upwjC7jpY.jpg",
+            "permalink": "\/r\/gadgets\/comments\/17mspz0\/samsung_to_follow_iphone_15_pro_and_use_titanium\/"
+        },
+        {
+            "id": "1etg4sw",
+            "title": "Google Pixel 9 vs iPhone 15 vs Samsung Galaxy S24: Which one would you pick under 80K?",
+            "selftext": null,
+            "thumbnail": "https:\/\/a.thumbs.redditmedia.com\/e6tM5Tt9SfNBEOpG-JegYXZAjmP8oQRr9BfX2w2WNH4.jpg",
+            "permalink": "\/r\/GadgetsIndia\/comments\/1etg4sw\/google_pixel_9_vs_iphone_15_vs_samsung_galaxy_s24\/"
+        },
+        {
+            "id": "1d8f9h4",
+            "title": "From IPhone 15 Pro Max and Samsung S24 Ultra",
+            "selftext": "Came from IPhone to Samsung, Vivo X100 Pro and now to the OnePlus 12. Been a fan of OnePlus since the 7 Pro and had the disappointing 10 pro and the mediocre 11 pro, the OnePlus 12 feels amazing. Both software and hardware wise.",
+            "thumbnail": "https:\/\/b.thumbs.redditmedia.com\/XGNdyJbBr60t-HXBI-GSGc4V62IJBGx7n6iSDR8GCfU.jpg",
+            "permalink": "\/r\/oneplus\/comments\/1d8f9h4\/from_iphone_15_pro_max_and_samsung_s24_ultra\/"
+        },
+        {
+            "id": "19bhk66",
+            "title": "iPhone 15 Pro Max vs Samsung S24 Ultra | Camera comparison",
+            "selftext": null,
+            "thumbnail": "https:\/\/b.thumbs.redditmedia.com\/Jvnq1tG5LTknzVqTndSE3aQOzTL8DZmJaAWVdI4hz0E.jpg",
+            "permalink": "\/r\/iPhone15Pro\/comments\/19bhk66\/iphone_15_pro_max_vs_samsung_s24_ultra_camera\/"
+        },
+        {
+            "id": "1aq0ij0",
+            "title": "[OC] Samsung S24 line beats iPhone in customer satisfaction for first time",
+            "selftext": null,
+            "thumbnail": "https:\/\/b.thumbs.redditmedia.com\/BG0pRXWNhSyVHprw6TT4XZW49xVFAxXfbjix3eTkyNo.jpg",
+            "permalink": "\/r\/dataisbeautiful\/comments\/1aq0ij0\/oc_samsung_s24_line_beats_iphone_in_customer\/"
+        },
+        {
+            "id": "1amk0vv",
+            "title": "Samsung Galaxy S24 Ultra or Iphone 15 Pro Max",
+            "selftext": "Im thinking of switching from Iphone over to Samsung. I just wanna know what exactly the S24 Ultra has over the Iphone 15 Pro Max?  Im already pretty much decided but I don't wanna go making any fast decisions without being absolutely sure.",
+            "thumbnail": "self",
+            "permalink": "\/r\/samsung\/comments\/1amk0vv\/samsung_galaxy_s24_ultra_or_iphone_15_pro_max\/"
+        },
+        {
+            "id": "1ac4194",
+            "title": "Samsung Galaxy S24 series vs iPhone",
+            "selftext": null,
+            "thumbnail": "https:\/\/b.thumbs.redditmedia.com\/73KPsp1O6Iycj3tjJyqTq84r9bt5zSXIaTS0XMQqRdk.jpg",
+            "permalink": "\/r\/GadgetsIndia\/comments\/1ac4194\/samsung_galaxy_s24_series_vs_iphone\/"
+        },
+        {
+            "id": "19f2e9f",
+            "title": "Samsung S24 Ultra vs iPhone 15 Pro Max, Which one would you choose?",
+            "selftext": null,
+            "thumbnail": "https:\/\/external-preview.redd.it\/bjQzd3o0MW96aWVjMVvIDlxV5xvqqBrZXktj6reyWU9u6zud5_2SCAg_Sf3Y.png?width=140&amp;height=140&amp;crop=140:140,smart&amp;format=jpg&amp;v=enabled&amp;lthumb=true&amp;s=1285330d203ed89bdc912e2ffbb80c101465e12f",
+            "permalink": "\/r\/GadgetsIndia\/comments\/19f2e9f\/samsung_s24_ultra_vs_iphone_15_pro_max_which_one\/"
+        },
+        {
+            "id": "1dk3obr",
+            "title": "Samsung S24 or iPhone 15 Pro Max?",
+            "selftext": "Samsung S24 Ultra* vs iPhone 15 Pro Max:\n\nIf you had to choose between the two, which would you buy? And why?\n\nAno ang selling point ng pipiliin niyo?",
+            "thumbnail": "self",
+            "permalink": "\/r\/Tech_Philippines\/comments\/1dk3obr\/samsung_s24_or_iphone_15_pro_max\/"
+        },
+        {
+            "id": "187w0mu",
+            "title": "Difference between an iPhone 3GS and IPhone 15 Pro Max",
+            "selftext": null,
+            "thumbnail": "https:\/\/b.thumbs.redditmedia.com\/mnJWMEnqFWDbymP8Xlhp6Zc81T5G4X99yGeav5nVzok.jpg",
+            "permalink": "\/r\/mildlyinteresting\/comments\/187w0mu\/difference_between_an_iphone_3gs_and_iphone_15\/"
+        },
+        {
+            "id": "19bmpmz",
+            "title": "Samsung Galaxy S24 Ultra vs IPhone 15 Pro Max | Camera comparison",
+            "selftext": null,
+            "thumbnail": "default",
+            "permalink": "\/r\/samsunggalaxy\/comments\/19bmpmz\/samsung_galaxy_s24_ultra_vs_iphone_15_pro_max\/"
+        },
+        {
+            "id": "1cq0cla",
+            "title": "Samsung S24 series vs iphone 15 series",
+            "selftext": null,
+            "thumbnail": "https:\/\/b.thumbs.redditmedia.com\/NWjRVJwn70ZMuz5R1OmwJa_QiE8U1zbWgaUmbXwarBE.jpg",
+            "permalink": "\/r\/GadgetsIndia\/comments\/1cq0cla\/samsung_s24_series_vs_iphone_15_series\/"
+        },
+        {
+            "id": "1d52v9u",
+            "title": "iPhone 15 pro vs Samsung s24 ultra",
+            "selftext": "I'm medical student and I require a new phone,I'm confused between samsung s24 ultra or iPhone 15 pro..if anyone could help then it would be great.heard that there are heating issue and faster battery drain in iphone 15 pro.",
+            "thumbnail": "self",
+            "permalink": "\/r\/iPhone15Pro\/comments\/1d52v9u\/iphone_15_pro_vs_samsung_s24_ultra\/"
+        },
+        {
+            "id": "1eibsrq",
+            "title": "SAMSUNG S24 vs IPHONE 15",
+            "selftext": "I need a phone to capture photos and make reels for Instagram. Only Camera matters to me nothing else. Which one should I buy?",
+            "thumbnail": "self",
+            "permalink": "\/r\/iphone15\/comments\/1eibsrq\/samsung_s24_vs_iphone_15\/"
+        },
+        {
+            "id": "1apqp4s",
+            "title": "Iphone 15 vs samsung s24 exynos",
+            "selftext": "Upgrading from s22 because of battery. I don't mind the 60hz since I am using my s22 with that to get as much SOT as I can. How is everyone doing with the s24 exynos version? \n\nAiming to get 8 hour SOT.  Mostly using it to take photos, scroll social media and Netflix. \n\nAny feedback is appreciated.",
+            "thumbnail": "self",
+            "permalink": "\/r\/samsung\/comments\/1apqp4s\/iphone_15_vs_samsung_s24_exynos\/"
+        },
+        {
+            "id": "1eibtt5",
+            "title": "SAMSUNG S24 vs IPHONE 15",
+            "selftext": "I need a photo to capture photos and make reels for Instagram. Only Camera matters to me nothing else. Which one should I buy?",
+            "thumbnail": "self",
+            "permalink": "\/r\/GadgetsIndia\/comments\/1eibtt5\/samsung_s24_vs_iphone_15\/"
+        },
+        {
+            "id": "19b2thr",
+            "title": "Iphone 15 plus vs Samsung s24 Ultra",
+            "selftext": "I just went to Samsung earlier, I was planning to trade in my current phone for the S24U. So ang magiging price ng S24U with the trade-in is 65k+, 512gb. Yung Iphone 15 plus naman sa PowerMac is 69k, 256gb. Sila ang kinocompare ko since halos same lang price nila. I'm leaning towards S24U pero kayo? What would be better?",
+            "thumbnail": "self",
+            "permalink": "\/r\/Tech_Philippines\/comments\/19b2thr\/iphone_15_plus_vs_samsung_s24_ultra\/"
+        },
+        {
+            "id": "1c7gozv",
+            "title": "Samsung S24+ or or iPhone 15 Plus?",
+            "selftext": "Hello, just want to get suggestions, I am deciding whether I should try iOS for the first time with the 15 plus or just stick to Samsung with the S24+. I don't game or anything, just want a tool that has great battery life. I believe that the 15 plus has great battery life according to MKBHD and others online. S24+ Exynos is not too bad in battery department too. But what's your view though? Appreciate any feedback! Thanks!",
+            "thumbnail": "self",
+            "permalink": "\/r\/Tech_Philippines\/comments\/1c7gozv\/samsung_s24_or_or_iphone_15_plus\/"
+        },
+        {
+            "id": "1dkh1n7",
+            "title": "Iphone 15, samsung s24 exynos or xiaomi 14",
+            "selftext": "I understand that this is a specific and therefore biased space, however, I would appreciate the help.\n\nI have a samsung a33 and it has really slowed down the last 2 years, its horrible. I want to buy a better phone that will perform for at least 4 years without slowing down.\n\nI know that iphones last a long time without any problems, however I was really put off by the 60 hz screen. I know the s24 is better on paper but i wonder will it keep that same performance as good as iphone since many of my friends still carry 11s without any problems but people with samsung experienced battery issues and lagging from time to time.\n\nI'm willing to sacrifice refresh rate for a better, smoother chipset. The phones are the same price where I'm at.\n\nRecently I also came across the xiaomi 14 which on paper seems perfect, however, I have no idea how xioami fares in the real world and its longevity.\n\nI am also drawn to the ios interface and design but again that 60 hz is discouraging me as I feel that I get more for the same price out of the other 2 phones.\n\nCan anyone share their experience and advice since I'm not very knowledgeable on phones.",
+            "thumbnail": "self",
+            "permalink": "\/r\/iphone15\/comments\/1dkh1n7\/iphone_15_samsung_s24_exynos_or_xiaomi_14\/"
+        },
+        {
+            "id": "1eaifih",
+            "title": "iPhone 15 or Samsung S24",
+            "selftext": "Although I am personally inclined to the S24, my family and relatives advise me to get the 15. Looked at many reviews comparing both, any suggestions?",
+            "thumbnail": "self",
+            "permalink": "\/r\/Smartphones\/comments\/1eaifih\/iphone_15_or_samsung_s24\/"
+        },
+        {
+            "id": "1ejt40u",
+            "title": "Iphone 15 pro or samsung s24 ultra",
+            "selftext": "At the moment im using s22 and I want to swap to something new. I wanted to try iphone, but I dont know what to pick, because s24 ultra and iphone 15 pro are on the same price.",
+            "thumbnail": "self",
+            "permalink": "\/r\/Smartphones\/comments\/1ejt40u\/iphone_15_pro_or_samsung_s24_ultra\/"
+        },
+        {
+            "id": "1evvqrq",
+            "title": "Which one should I buy samsung galaxy s24 plus or iphone 15 plus",
+            "selftext": "I want to buy a new phone, I can wait for a few months, but I'm very confused about my options. Can anyone tell me which one of these 2 is better? I want better camera, battery life and overall a good phone that'll last me for atleast next 4-5 years. Thanks in advance.",
+            "thumbnail": "self",
+            "permalink": "\/r\/GadgetsIndia\/comments\/1evvqrq\/which_one_should_i_buy_samsung_galaxy_s24_plus_or\/"
+        },
+        {
+            "id": "1ej0uwx",
+            "title": "Que choisir entre l'Iphone 15 et le Samsung s24 ?",
+            "selftext": "Tout est dans le titre mais voici quelques infos suppl\u00e9mentaires :\n\nJ'ai actuellement 17 ans et bient\u00f4t je vais recevoir ma premi\u00e8re paye, j'aimerai donc me faire plaisir en m'achetant un nouveau t\u00e9l\u00e9phone.\n\nL\u00e0 o\u00f9 le soucis se pose est que j'ai toujours \u00e9t\u00e9 chez samsung depuis que j'ai l'\u00e2ge d'avoir un t\u00e9l\u00e9phone donc je connais bien l'interface et d'un c\u00f4t\u00e9 ce sera plus facile pour moi de m'y retrouver mais en m\u00eame temps j'aimerai bien essayer Iphone afin de pouvoir me faire un avis dessus.\n\nJe trouve que les 2 syst\u00e8me ont chacun des qualit\u00e9s et des d\u00e9fauts qui me donne envie d'acheter l'un des deux. Et plus je fais des recherches, plus j'h\u00e9site.\n\nSachant que je re\u00e7ois mon salaire bient\u00f4t j'aimerai me faire une id\u00e9e de ce que je voudrais au plus vite.\n\nDu coup je voulais savoir votre avis sur quel t\u00e9l\u00e9phone je devrais prendre entre le s24 et l'Iphone 15 ? (avec des arguments concrets si possible)",
+            "thumbnail": "self",
+            "permalink": "\/r\/AskFrance\/comments\/1ej0uwx\/que_choisir_entre_liphone_15_et_le_samsung_s24\/"
+        },
+        {
+            "id": "1fdn8un",
+            "title": "Iphone 15 vs Samsung s24+(exynos)",
+            "selftext": "Hey guys so I've been looking for a phone and have stumbled across either the Samsung s24+ or the Iphone 15.\nI've been an android user all my life but I'm willing to try IOS because I've heard Apple optimises it's apps very well (plus all my friends have an iphone so i can use stuff like facetime and airdrop with them). \nBoth phones are in my price range and i would normally go for the samsung but it having exynos is kinda dissapointing because from what i've seen it makes photos and signal connection worse. \nI'm a casual phone user. A bit of photos, a bit of gaming, I'm just looking for an all-rounder.\nSo which one do you think is better? \nNote: I know the Iphone 16 is coming out next week but It's a bit out of my budget \nEdit: Also does anyone know when do the prices for the base Iphone 15 drop? Is it right as the 16 is released or do i have to wait more?",
+            "thumbnail": "self",
+            "permalink": "\/r\/Smartphones\/comments\/1fdn8un\/iphone_15_vs_samsung_s24exynos\/"
+        },
+        {
+            "id": "1e93ez5",
+            "title": "iPhone 15 vagy Samsung S24?",
+            "selftext": "Sziasztok, rem\u00e9lem j\u00f3 helyre \u00edrok! A jelenlegi p\u00e1r \u00e9vvel ezel\u0151tti k\u00f6z\u00e9p kateg\u00f3ri\u00e1s (150e) Android telefonom akkumul\u00e1tora kezd felp\u00faposodni \u00e9s m\u00e1r a kijelz\u0151 is be\u00e9gett, teh\u00e1t n\u00e9znem kell valami \u00fajat. Sokkal r\u00e9gebben iPhone-jaim voltak, de financi\u00e1lis okokb\u00f3l j\u00f3 p\u00e1r \u00e9ve Androidra v\u00e1ltottam. Most \u00fajra gondolkodom, hogy iPhone-t vegyek \u00e9s fejben kb. terveztem is az \u00faj 16-ot megvenni a megjelen\u00e9s ut\u00e1n, de \u00fagy l\u00e1tszik azt m\u00e1r nem b\u00edrja kiv\u00e1rni a k\u00e9sz\u00fcl\u00e9kem. \n\nTi mit tan\u00e1csoltok, vegyek sima iPhone 15-\u00f6t (nem pro, nem vagyok fot\u00f3s) vagy Samsung S24-et? A multi SIM az S24-ben j\u00f3l j\u00f6nne, mert megszoktam a mostani telefonomon. \n\nBrave b\u00f6ng\u00e9sz\u0151t haszn\u00e1lok a telefonomon a rekl\u00e1mok miatt. Ez iPhone-on is j\u00f3l m\u0171k\u00f6dik?\n\nVan valami l\u00e9nyegi el\u0151ny vagy h\u00e1tr\u00e1ny az iPhone-okban az elm\u00falt 10 \u00e9vben amir\u0151l tudnom kellene? Google Pay-el fizetek szinte mindig. Fogok tudni NFC-vel b\u00e1rmelyik termin\u00e1ln\u00e1l fizetni Apple Pay-el vagy tov\u00e1bbra is csak azt t\u00e1mogat\u00f3 termin\u00e1llal megy?\n\nTudtommal az itthon forgalmazott Samsung S24 nem Snapdragon processzorral szerelt, hanem Exynos van benne. Ez rosszabb sokkal, mi a tapasztalat?\n\niPhone 15 280e, a Samsung S24 pedig 213e. Esetleg Google Pixel 8 200e. Ezek \u00c1rukeres\u0151s \u00e1rak k\u00fcl\u00f6nb\u00f6z\u0151 GSM shopokb\u00f3l. Venn\u00e9tek telefont ilyen boltokb\u00f3l? M\u00e1sk\u00fcl\u00f6nben MediaMarkt meg t\u00e1rsaiban sokkal dr\u00e1g\u00e1bbak.",
+            "thumbnail": "self",
+            "permalink": "\/r\/askhungary\/comments\/1e93ez5\/iphone_15_vagy_samsung_s24\/"
+        }
+    ]
+}

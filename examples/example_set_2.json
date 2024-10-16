@@ -1,0 +1,66 @@
+[{
+    "username": "PythonPr",
+    "user_id": "855384627975831553",
+    "id": "1592007052767166466",
+    "conversation_id": "1592007052767166466",
+    "full_text": "How to Manage a Database with Python, Pandas &amp; SQL \n#sql #python #pandas \nhttps://t.co/R8EQf0BOIm",
+    "reply_count": 8,
+    "retweet_count": 201,
+    "favorite_count": 728,
+    "hashtags": [
+      "sql",
+      "python",
+      "pandas"
+    ],
+    "symbols": [],
+    "user_mentions": [],
+    "urls": [
+      {
+        "url": "https://t.co/R8EQf0BOIm",
+        "expanded_url": "https://morioh.com/p/e97123953cea?f=5e44c59998b8037d03aa8178",
+        "display_url": "morioh.com/p/e97123953cea…"
+      }
+    ],
+    "media": [],
+    "url": "https://twitter.com/PythonPr/status/1592007052767166466",
+    "created_at": "2022-11-14T04:10:34.000Z",
+    "quote_count": 1,
+    "is_quote_tweet": false,
+    "is_retweet": false,
+    "is_pinned": false,
+    "is_truncated": false,
+    "startUrl": "https://twitter.com/PythonPr/with_replies"
+  },
+  {
+    "username": "PythonPr",
+    "user_id": "855384627975831553",
+    "id": "1668908383930576896",
+    "conversation_id": "1668908383930576896",
+    "full_text": "Face Recognition Attendance System Using Python\n#computervision #python\nhttps://t.co/QTWCISXVym",
+    "reply_count": 4,
+    "retweet_count": 184,
+    "favorite_count": 731,
+    "hashtags": [
+      "computervision",
+      "python"
+    ],
+    "symbols": [],
+    "user_mentions": [],
+    "urls": [
+      {
+        "url": "https://t.co/QTWCISXVym",
+        "expanded_url": "https://morioh.com/p/1b389cfbeb84?f=5e44c59998b8037d03aa8178",
+        "display_url": "morioh.com/p/1b389cfbeb84…"
+      }
+    ],
+    "media": [],
+    "url": "https://twitter.com/PythonPr/status/1668908383930576896",
+    "created_at": "2023-06-14T09:09:00.000Z",
+    "view_count": 114998,
+    "quote_count": 1,
+    "is_quote_tweet": false,
+    "is_retweet": false,
+    "is_pinned": false,
+    "is_truncated": false,
+    "startUrl": "https://twitter.com/PythonPr/with_replies"
+  }]

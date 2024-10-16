@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Documentation</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding-top: 50px;
+        }
+
+        .container {
+            max-width: 800px;
+        }
+
+        .section-title {
+            margin-top: 30px;
+        }
+
+        .code {
+            background-color: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 5px;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">Project Documentation</a>
+    </nav>
+
+    <div class="container">
+        <h1 class="mt-5">Project Documentation</h1>
+
+        <section>
+            <h2 class="section-title">Project Overview</h2>
+            <p>This project is a web application that involves sentiment analysis on comments fetched from Reddit. The
+                project is structured with a front-end developed using Vue.js and a back-end developed using Laravel.
+                Python scripts are used for sentiment analysis.</p>
+        </section>
+
+        <section>
+            <h2 class="section-title">Directory Structure</h2>
+            <h3>PLN-API (Back-End)</h3>
+            <pre class="code">.
+│-- app
+│   ├── Console
+│   ├── Exceptions
+│   ├── Http
+│   │   ├── Controllers
+│   │   │   ├── api
+│   │   │   │   ├── RedditController.php
+│   │   │   │   ├── RegisterController.php
+│   │   │   │   ├── UserController.php
+│   │   │   │   ├── Controller.php
+│   │   │   │   ├── LikeController.php
+│   │   │   ├── Middleware
+│   │   │   ├── Requests
+│   │   │   ├── Resources
+│   ├── Models
+│   ├── Providers
+│-- bootstrap
+│-- config
+│-- database
+│-- public
+│-- pythonProject4
+│   ├── analyze_comments.py
+│   ├── analyzed_comments_cache.txt
+│   ├── analyzed_comments_data.txt
+│   ├── analyzed_data_cache.txt
+│   ├── analyzed_data.txt
+│   ├── comments_data.txt
+│   ├── data.txt
+│   ├── main.py
+│   ├── requirements.txt
+│-- resources
+│-- routes
+│-- storage
+│-- tests
+│-- vendor
+│-- .env
+│-- .env.example
+│-- .gitattributes
+│-- .gitignore
+│-- artisan
+│-- composer.json</pre>
+
+            <h3>PLN (Front-End)</h3>
+            <pre class="code">.
+│-- .vscode
+│-- node_modules
+│-- public
+│-- src
+│   ├── assets
+│   ├── components/navigation
+│   │   ├── Navbar.vue
+│   │   ├── Sidebar.vue
+│   │   ├── SidebarItem.vue
+│   ├── router
+│   │   ├── index.js
+│   ├── stores
+│   │   ├── login.js
+│   │   ├── user.js
+│   ├── views
+│   │   ├── HistoryView.vue
+│   │   ├── HomeView.vue
+│   │   ├── LoginView.vue
+│   │   ├── ProfileView.vue
+│   │   ├── RegisterView.vue
+│   │   ├── UserDetail.vue
+│   │   ├── UsersView.vue
+│   ├── App.vue
+│   ├── main.js
+│-- .gitignore
+│-- index.html
+│-- jsconfig.json
+│-- package-lock.json
+│-- package.json
+│-- vite.config.js</pre>
+        </section>
+
+        <section>
+            <h2 class="section-title">Important Files</h2>
+            <h3>Python Scripts</h3>
+            <p><strong>analyze_comments.py</strong> - Script to analyze sentiments in comments.</p>
+            <p><strong>main.py</strong> - Script to analyze sentiments in posts.</p>
+
+            <h3>Controllers (Laravel)</h3>
+            <p><strong>RedditController.php</strong> - Handles fetching data from Reddit.</p>
+            <p><strong>RegisterController.php</strong> - Manages user registration.</p>
+            <p><strong>UserController.php</strong> - Manages user-related operations.</p>
+            <p><strong>LikeController.php</strong> - Handles like/dislike functionality.</p>
+
+            <h3>Models (Laravel)</h3>
+            <p><strong>Like.php</strong> - Model for like functionality.</p>
+            <p><strong>User.php</strong> - Model for user-related data.</p>
+
+            <h3>Front-End Components (Vue.js)</h3>
+            <p><strong>Navbar.vue</strong> - Navigation bar component.</p>
+            <p><strong>Sidebar.vue</strong> - Sidebar component.</p>
+            <p><strong>SidebarItem.vue</strong> - Sidebar item component.</p>
+            <p><strong>HomeView.vue</strong> - Home page view.</p>
+            <p><strong>LoginView.vue</strong> - Login page view.</p>
+            <p><strong>RegisterView.vue</strong> - Register page view.</p>
+            <p><strong>ProfileView.vue</strong> - User profile view.</p>
+            <p><strong>HistoryView.vue</strong> - View for displaying user's history.</p>
+            <p><strong>UsersView.vue</strong> - View for managing users.</p>
+            <p><strong>UserDetail.vue</strong> - Detailed view for a single user.</p>
+
+            <h3>Store (Vuex)</h3>
+            <p><strong>login.js</strong> - Vuex module for managing login state.</p>
+            <p><strong>user.js</strong> - Vuex module for managing user state.</p>
+        </section>
+
+        <section>
+            <h2 class="section-title">Environment Setup</h2>
+            <h3>Back-End (Laravel)</h3>
+            <ol>
+                <li>Clone the repository.</li>
+                <li>Navigate to the project directory and run <code>composer install</code>.</li>
+                <li>Copy <code>.env.example</code> to <code>.env</code> and configure the environment variables.</li>
+                <li>Generate an application key using <code>php artisan key:generate</code>.</li>
+                <li>Run the migrations using <code>php artisan migrate</code>.</li>
+                <li>Start the development server using <code>php artisan serve</code>.</li>
+            </ol>
+
+            <h3>Front-End (Vue.js)</h3>
+            <ol>
+                <li>Navigate to the <code>PLN</code> directory.</li>
+                <li>Install dependencies using <code>npm install</code>.</li>
+                <li>Start the development server using <code>npm run dev</code>.</li>
+            </ol>
+
+            <h3>Python (Sentiment Analysis)</h3>
+            <ol>
+                <li>Navigate to the <code>pythonProject4</code> directory.</li>
+                <li>Create a virtual environment using <code>python -m venv venv</code>.</li>
+                <li>Activate the virtual environment.
+                    <ul>
+                        <li>On Windows: <code>venv\Scripts\activate</code></li>
+                        <li>On Unix or MacOS: <code>source venv/bin/activate</code></li>
+                    </ul>
+                </li>
+                <li>Install dependencies using <code>pip install -r requirements.txt</code>.</li>
+                <li>Run the scripts as needed, e.g., <code>python analyze_comments.py</code>.</li>
+            </ol>
+        </section>
+    </div>
+
+    <footer class="text-center mt-5">
+        <p>&copy; 2024 Project Documentation</p>
+    </footer>
+
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script> -->
+    <!-- <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> -->
+</body>
+
+</html>

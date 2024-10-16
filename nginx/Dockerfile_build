@@ -1,0 +1,21 @@
+FROM nginx:alpine
+
+USER root
+
+RUN chown -R $user:www-data /var/cache/nginx /var/log/nginx /var/run && \
+    chmod -R 755 /var/cache/nginx /var/log/nginx /var/run
+
+COPY ./PLN/dist /var/www/isaws/vue
+
+COPY ./PLN-API /var/www/isaws/laravel
+
+# Change ownership and permissions
+RUN chown -R $user:www-data /var/www/isaws/vue && chmod -R g+rw /var/www/isaws/vue
+RUN chown -R $user:www-data /var/www/isaws/laravel && chmod -R g+rw /var/www/isaws/laravel
+
+# Set the working directory
+WORKDIR /var/www/isaws
+
+# Expose port 80
+EXPOSE 80
+

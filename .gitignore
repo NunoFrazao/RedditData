@@ -1,0 +1,19 @@
+# Ignorar arquivos e diretórios do PyCharm
+.idea/
+*.iml
+*.ipynb_checkpoints/
+
+# Ignorar arquivos de configuração específicos do PyCharm
+*.pyc
+*.pyo
+*.pyd
+*.class
+todo.md
+run.sh
+venv/
+
+# Ignorar arquivos de cache do PyCharm
+__pycache__/
+
+env/
+*.prof

@@ -1,0 +1,302 @@
+[
+    {
+        "id": "1cp8wrd",
+        "thumbnail": "self",
+        "selftext": "I wanna start it. I should start it. I may as well have started it.   \nSoftware acquired, language learnt, backtesting logic understood (more or less). Should I stop?  \nIs this fruitful in anyway? The stock market is mirror to the economic/political landscape of our world. And right now, there is so much uncertainty about... everything, the market is too prone to manipulation. And this works inversly to algorithms.  \nOR should I tweak the algo's to incorporate sentiment analysis of news?   \nProblem is... the News API's are mad expensive. What is the scope of this venture. Anyone tried? \n\nYes I asked a lot of questions. You can answer even 1 if u like.",
+        "title": "Is Algo trading dead?",
+        "permalink": "/r/Daytrading/comments/1cp8wrd/is_algo_trading_dead/",
+        "scores": {
+            "Negativo": 0.20538979768753052,
+            "Neutro": 0.7761525511741638,
+            "Positivo": 0.018457597121596336
+        }
+    },
+    {
+        "id": "1ctgkyq",
+        "thumbnail": "self",
+        "selftext": "If anyone here has ever done algo trading or is currently doing, please help me out!!\n\nI just want to create a basic algo which will be executed by me and it will square it off itself on reaching the desired profit!",
+        "title": "Algo trading",
+        "permalink": "/r/IndianStockMarket/comments/1ctgkyq/algo_trading/",
+        "scores": {
+            "Negativo": 0.09573383629322052,
+            "Neutro": 0.8173707127571106,
+            "Positivo": 0.08689547330141068
+        }
+    },
+    {
+        "id": "1e51qtb",
+        "thumbnail": "default",
+        "selftext": "The Relative Strength Index (RSI) and Awesome Oscillator (AO) indicators on the daily chart support the bounce above, which are firmly present above their respective mean values of 50 and 0. The momentum indicators clearly signal that bullish momentum is in control.",
+        "title": "Here is why ALGO could rally 14%",
+        "permalink": "/r/CryptoCurrency/comments/1e51qtb/here_is_why_algo_could_rally_14/",
+        "scores": {
+            "Negativo": 0.006012471858412027,
+            "Neutro": 0.3341445326805115,
+            "Positivo": 0.6598430275917053
+        }
+    },
+    {
+        "id": "1d6hign",
+        "thumbnail": "https://b.thumbs.redditmedia.com/w3v_wzUdzIoMIR5OFHGPrs9Td8zhPqdsXXXKqFfvTNE.jpg",
+        "selftext": "My associate and I have developed and backtested an algorithmic trading system. I want to explain it to you, and then have you rip it apart if you can before I put actual trading money into it. We've been working on it so long, I fear I may have lost my objectivity.\n\nA little backstory: I've been into forex algo trading in one way or another since 2009. Probably created 50 EAs during that period, all of which eventually imploded at some point. After a while, it occurred to me that EAs are simply too static in their methodology. \"If X + Y + Z happens, take a trade.\" Then you hope those conditions happen over and over again, regardless of market dynamics.\n\nSeveral months ago, I started working with a developer who had a similar point of view, and whose own ideas were finally coming to fruition due in no small part to the rise in cloud-based processing capacity. (ten years ago, you needed your own supercomputer, which was impossible for retail traders). \n\nAnyway, flash forward, and we've got this system we call The Procedure (horrible name, but my partner insisted). It's a cloud-based processing architecture that uses multi-layered genetic algorithms and proprietary selection-refinement methods to create a unique set of Expert Advisors every 30 days, each with its own strategy for a specific currency pair.\n\nAfter analyzing vast amounts of historical market data and filtering it through millions of trading strategy layers, The Procedure creates several EAs, each designed to automatically place high-probability trades, and delivers them to the desktop each month. This process repeats every 30 days, allowing The Procedure\u2019s genetic algorithms to evolve and learn more efficiently the more it trades.\n\nIn its first backtest, the 1st Generation of The Procedure produced an Average Monthly Return of\u00a0**5.16% with only one losing month in two years**.\n\nAfter several refinements, the 2nd generation of The Procedure produced backtest results with an\u00a0**Average Monthly Return of 8.54%, an Annualized Return of 164.51%,**\u00a0and a\u00a0**Max Drawdown of only 4.82%**\u00a0(over two years, ending April 2024). It's important to note that the backtests were performed with out-of-sample data, so it's not a matter of \"self-fulfilling prophesy.\"\n\nhttps://preview.redd.it/xef0bzjtr64d1.jpg?width=792&amp;format=pjpg&amp;auto=webp&amp;s=4c7d794bec9f91743bb8bad196bef305c7ab453e\n\n**Here's how The Procedure works:**\n\n**1.\u00a0\u00a0\u00a0 Genetic Optimization-Based Strategy Generation Layer**\n\nAt the foundation of our system is the Strategy Generation Layer. This layer employs genetic optimization algorithms to craft trading strategies by combining various predefined strategy elements (like indicators). Each component strategy is self-contained, with its own pre-set stop losses, profit targets, lot sizes, etc. We construct a portfolio of these strategies in the steps to follow.\n\nThe aim is to create a robust portfolio of strategies through a series of evolutionary cycles, intentionally limited to prevent overfitting. Each cycle spans five months, divided into four months of training and one month of validation, ensuring that each strategy is adaptive, viable, and based on the most current information. This layer generates a vast dataset.\n\n**2.\u00a0\u00a0\u00a0 Selection Method Layer**\n\nThe next layer, the Selection Method Layer, focuses on refining and optimally selecting the strategies generated in the previous stage. This process is driven by re-evaluating the strategies at the end of each validation period to adapt to evolving market conditions. The optimization targets the validation results of sequential periods, employing a methodical approach to identify and prioritize the most effective strategies based on their recent performance.\n\n**3.\u00a0\u00a0\u00a0 Strategy Selector Layer**\n\nThe Selection Method Selector Layer is where the parameters set in the previous layer are skimmed to derive consistent performance. Several key parameters influence strategy selection, including the optimization scope (windowed or full), the frequency of re-optimization, and the criteria for selecting the top-performing strategies.\n\nThis search space is left with very few self-adjusting, free parameters. This layer allows for strategic adjustments\u2014such as selecting a certain number of top strategies for future periods\u2014while filtering out less effective instruments that will refine the trading portfolio further.\n\n**4.\u00a0\u00a0\u00a0 Performance Evaluation and Adjustment**\n\nIn this top-most layer, the system continually assesses the effectiveness of different selection methods based on historical performance data. This retrospective analysis helps in identifying the most promising Selection Method Selections in the abstract, enabling a proactive adjustment of parameters to optimize future returns. The system's design allows for agile responses to market dynamics, aiming to maximize stability and profitability.\n\nhttps://preview.redd.it/u7z0p0ijs64d1.jpg?width=787&amp;format=pjpg&amp;auto=webp&amp;s=53ab8a0ca1de83d9edfa2e0a949c4e1067d962fd\n\n**So...what am I missing here?**\n\nPerhaps the only answer is, \"Try it and see what happens.\" But since y'all are known for your...how do I put this...*unrelenting honesty*...I thought I'd throw it out there for your review.\n\nThanks!",
+        "title": "Ok traders, tear my algo apart",
+        "permalink": "/r/Forex/comments/1d6hign/ok_traders_tear_my_algo_apart/",
+        "scores": {
+            "Negativo": 0.6651337146759033,
+            "Neutro": 0.315296471118927,
+            "Positivo": 0.01956971548497677
+        }
+    },
+    {
+        "id": "14sh65h",
+        "thumbnail": "self",
+        "selftext": "I remember making fun of ADA here. I was calling it a stablecoin. And people were losing their minds. And I was like \"Algo is not ADA.\"\n Oh my dear Algo. What have happened to you?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIt is like my wife expectations from me. It easily drops but need quiet a few miracles to recover.\nAlgo's price dropped almost sixty percent in a year. \nTo give you a better image, ADA (former stablecoin) is down 30%, and Monero, the other well loved crypto among the people of this sub, is UP 30%. \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIt is like having the best sport car in the world, but no tire. \nIt is been said than tech or usecases of a coin might not be enough to garantee it's future, that publicity and hype are much more relevant to the price hike.\nBut damn, never imagined a day when people wish they would have bought Pepe instead of Algo. \nSad day for crypto indeed.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnd no, I will keep my bag. I still believe in Algo.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPS: can someone explain why Algo's price action been so bad? Did I miss a huge news about it? Or is it just market? Thank you.\nPPS: repost because of wrong flair",
+        "title": "What happened to Algo, the golden child of r/cc?",
+        "permalink": "/r/CryptoCurrency/comments/14sh65h/what_happened_to_algo_the_golden_child_of_rcc/",
+        "scores": {
+            "Negativo": 0.1320571005344391,
+            "Neutro": 0.8264105916023254,
+            "Positivo": 0.04153228923678398
+        }
+    },
+    {
+        "id": "153utju",
+        "thumbnail": "self",
+        "selftext": "ALGO was one of the r/cc favorites last time around, hitting a high of around $2.70. Right now it is sitting at $0.11, and was mentioned as token/security  listed in the SEC's suit against coinbase. It seems the coin has good fundamentals and tech, but will this go the path of NANO and others that just aren't meme enough? Many fans are pretty disheartened about the recent slide, but is this just normal bear market activity? Will ALGO surge if the SEC's suite is found to be bogus?\n\nALGO caught my attention due to being carbon negative, and even though many CCs are unfairly targeted for greenhosue emissions (in my honest opinion), I thought this idea had a lot of potential long term.",
+        "title": "What are your thoughts on the future of ALGO?",
+        "permalink": "/r/CryptoCurrency/comments/153utju/what_are_your_thoughts_on_the_future_of_algo/",
+        "scores": {
+            "Negativo": 0.034276723861694336,
+            "Neutro": 0.925136148929596,
+            "Positivo": 0.04058711975812912
+        }
+    },
+    {
+        "id": "1ca986d",
+        "thumbnail": "self",
+        "selftext": "First of all, I have never used algo trading before. Is there any algorithm software, preferably free, that I can play around with different inputs and strategies and then backtest or forward test? It would be fun and educational.",
+        "title": "I want to play around with algo",
+        "permalink": "/r/Daytrading/comments/1ca986d/i_want_to_play_around_with_algo/",
+        "scores": {
+            "Negativo": 0.013852383941411972,
+            "Neutro": 0.534887969493866,
+            "Positivo": 0.45125970244407654
+        }
+    },
+    {
+        "id": "17lqst5",
+        "thumbnail": "self",
+        "selftext": "I've seen some ads for algo trading software and indicators and I'm wondering if  anyone has been successful using these? And was it for stocks, options, futures, etc?",
+        "title": "Is there algo trading software that actually helps you?",
+        "permalink": "/r/Daytrading/comments/17lqst5/is_there_algo_trading_software_that_actually/",
+        "scores": {
+            "Negativo": 0.05549323558807373,
+            "Neutro": 0.8486526608467102,
+            "Positivo": 0.09585408866405487
+        }
+    },
+    {
+        "id": "183c0uq",
+        "thumbnail": "self",
+        "selftext": "How many people here are algo trades and if you are.. how are you doing it, I am curious. Are you using expert advisers or using diffrent approach? like python? Did you develop the system yourself? \n\nI'll kick it off.. I am an algo trader using python.. I am hooked into MT5 via API but I recoded all my tools and indicators into python and created my own charts in python using ploty and my own code for Renko bricks. I coded my own indicators in python so the algo brain is run via python. I am doing multi threading so my algo is scanning 30 pairs every 1 min and managing all the trades..I am building out for myself a user dashboard so I can just visually see all the action. It took me a long time to develop this skills and GPT 4 helped a lot (I could not build such a complex algo without GPT 4).",
+        "title": "How many people here are algo traders and what are you doing?",
+        "permalink": "/r/Forex/comments/183c0uq/how_many_people_here_are_algo_traders_and_what/",
+        "scores": {
+            "Negativo": 0.06871305406093597,
+            "Neutro": 0.9059433937072754,
+            "Positivo": 0.025343677029013634
+        }
+    },
+    {
+        "id": "1ekafu8",
+        "thumbnail": "https://b.thumbs.redditmedia.com/kJYWdM-P5crBpLweX1HpIGixeJfdFdW86o_hi6iL8ic.jpg",
+        "selftext": null,
+        "title": "Algo para aliviar a dor",
+        "permalink": "/r/olimpiadas/comments/1ekafu8/algo_para_aliviar_a_dor/",
+        "scores": {
+            "Negativo": 0.06110883876681328,
+            "Neutro": 0.7892863750457764,
+            "Positivo": 0.14960485696792603
+        }
+    },
+    {
+        "id": "1ds312y",
+        "thumbnail": "https://b.thumbs.redditmedia.com/jDQrOJbrt65-DB_o72NtPF85Gy7AwIYRjEyHDUGrfRU.jpg",
+        "selftext": null,
+        "title": "Algos on fire",
+        "permalink": "/r/Superstonk/comments/1ds312y/algos_on_fire/",
+        "scores": {
+            "Negativo": 0.1935853362083435,
+            "Neutro": 0.6482101678848267,
+            "Positivo": 0.15820449590682983
+        }
+    },
+    {
+        "id": "1ed38ux",
+        "thumbnail": "https://b.thumbs.redditmedia.com/hcPmU-2jJKaDuf8xdMcfReKSiz4azT6joctm_-d9mZw.jpg",
+        "selftext": null,
+        "title": "Algo a dizer?",
+        "permalink": "/r/MeJulgue/comments/1ed38ux/algo_a_dizer/",
+        "scores": {
+            "Negativo": 0.12293953448534012,
+            "Neutro": 0.7796408534049988,
+            "Positivo": 0.0974196121096611
+        }
+    },
+    {
+        "id": "1ejz3aj",
+        "thumbnail": "https://b.thumbs.redditmedia.com/js_Z8nYLS1w0cBil4BFwo3fpOZzFvBPTp0bhsxg-zaI.jpg",
+        "selftext": null,
+        "title": "Algo es algo.",
+        "permalink": "/r/GUIBELREVIEWS/comments/1ejz3aj/algo_es_algo/",
+        "scores": {
+            "Negativo": 0.09162728488445282,
+            "Neutro": 0.7469850778579712,
+            "Positivo": 0.161387637257576
+        }
+    },
+    {
+        "id": "1dujhxo",
+        "thumbnail": "https://a.thumbs.redditmedia.com/fh2cgCX1W31tmtKc2qPu3DgIj-UZYd1o7rZ2AUIfKG8.jpg",
+        "selftext": null,
+        "title": "The algos right now",
+        "permalink": "/r/Superstonk/comments/1dujhxo/the_algos_right_now/",
+        "scores": {
+            "Negativo": 0.08138193190097809,
+            "Neutro": 0.8548668026924133,
+            "Positivo": 0.063751220703125
+        }
+    },
+    {
+        "id": "1drph3i",
+        "thumbnail": "https://b.thumbs.redditmedia.com/8jbuP9UZuVUNzBAnu9Q8n8WwwZxZVRwVauDO7D7MeRY.jpg",
+        "selftext": null,
+        "title": "All this talk about algos and bots \ud83d\ude09...circa May 6, 2021",
+        "permalink": "/r/Superstonk/comments/1drph3i/all_this_talk_about_algos_and_bots_circa_may_6/",
+        "scores": {
+            "Negativo": 0.09931272268295288,
+            "Neutro": 0.720020055770874,
+            "Positivo": 0.1806672215461731
+        }
+    },
+    {
+        "id": "15a74o8",
+        "thumbnail": "image",
+        "selftext": "A pesar de que nos borraron de todos lados por los est\u00fapidos Bots.... siempre seremos la Z del Spez del r/place 2023",
+        "title": "Algo es algo...",
+        "permalink": "/r/mexico/comments/15a74o8/algo_es_algo/",
+        "scores": {
+            "Negativo": 0.08021499216556549,
+            "Neutro": 0.8202234506607056,
+            "Positivo": 0.09956150501966476
+        }
+    },
+    {
+        "id": "uafypd",
+        "thumbnail": "https://b.thumbs.redditmedia.com/aHHl6fSTTZu3LFp_fyyqkGLMgK7-BI7XhpnAdMgCMIE.jpg",
+        "selftext": null,
+        "title": "Ah\u00ed esta e video de iaara. (No se si se ve muy bien pero algo es algo)",
+        "permalink": "/r/u_No_Statistician_1009/comments/uafypd/ah\u00ed_esta_e_video_de_iaara_no_se_si_se_ve_muy_bien/",
+        "scores": {
+            "Negativo": 0.07075086981058121,
+            "Neutro": 0.8132386803627014,
+            "Positivo": 0.11601044982671738
+        }
+    },
+    {
+        "id": "z90umb",
+        "thumbnail": "https://b.thumbs.redditmedia.com/tEdsMT7sT9az4xD2I5ors-76xISy387TH-Q_gf6cZuY.jpg",
+        "selftext": null,
+        "title": "algo shows how Elon really feels",
+        "permalink": "/r/WhitePeopleTwitter/comments/z90umb/algo_shows_how_elon_really_feels/",
+        "scores": {
+            "Negativo": 0.03358851373195648,
+            "Neutro": 0.8528591990470886,
+            "Positivo": 0.11355233192443848
+        }
+    },
+    {
+        "id": "1dhef1u",
+        "thumbnail": "https://b.thumbs.redditmedia.com/ALbntzi1tB2NIN-gjO57AIoYfEIIZIOt1YyBaq5ABPw.jpg",
+        "selftext": null,
+        "title": "Algo es algo",
+        "permalink": "/r/SpanishMeme/comments/1dhef1u/algo_es_algo/",
+        "scores": {
+            "Negativo": 0.11551880091428757,
+            "Neutro": 0.7188205122947693,
+            "Positivo": 0.16566073894500732
+        }
+    },
+    {
+        "id": "1b2hug4",
+        "thumbnail": "https://external-preview.redd.it/N2ptNWh2ejc4ZWxjMaHpuXZGVMX-zKtcRjjYp-EX1Xzzu-D3ola8n-qhOpSU.png?width=140&amp;height=140&amp;crop=140:140,smart&amp;format=jpg&amp;v=enabled&amp;lthumb=true&amp;s=49b360f60aca69b1a5bbdee8166cb0b74a312372",
+        "selftext": "https://www.instagram.com/vicestrella.psd?igsh=NTI1dzJ0dWRuZnNh",
+        "title": "Jugar\u00edan algo as\u00ed? Podr\u00eda ser algo tipo Shenmue",
+        "permalink": "/r/ElCalabozodelAndroide/comments/1b2hug4/jugar\u00edan_algo_as\u00ed_podr\u00eda_ser_algo_tipo_shenmue/",
+        "scores": {
+            "Negativo": 0.06502685695886612,
+            "Neutro": 0.8653088808059692,
+            "Positivo": 0.06966425478458405
+        }
+    },
+    {
+        "id": "1bgjsdz",
+        "thumbnail": "https://b.thumbs.redditmedia.com/vUyk3JKCluqtYgqu8rImMdCLgmbO7w_wqgQ1_DNGtCI.jpg",
+        "selftext": null,
+        "title": "Tremendo el farmacity. Vieron algo as\u00ed antes?",
+        "permalink": "/r/argentina/comments/1bgjsdz/tremendo_el_farmacity_vieron_algo_as\u00ed_antes/",
+        "scores": {
+            "Negativo": 0.06583139300346375,
+            "Neutro": 0.8716922998428345,
+            "Positivo": 0.06247631460428238
+        }
+    },
+    {
+        "id": "uox79g",
+        "thumbnail": "https://b.thumbs.redditmedia.com/Ip0EIZPo4ohXtenAhSQ0VDglf7BWXGXnDQbMEkQpGrs.jpg",
+        "selftext": null,
+        "title": "Interesting take on options and algo trading",
+        "permalink": "/r/Superstonk/comments/uox79g/interesting_take_on_options_and_algo_trading/",
+        "scores": {
+            "Negativo": 0.006073040422052145,
+            "Neutro": 0.299995481967926,
+            "Positivo": 0.693931519985199
+        }
+    },
+    {
+        "id": "xouy8d",
+        "thumbnail": "https://b.thumbs.redditmedia.com/bsenvl7igInBM4r6KIQvt_eyYuuhLZURyQ8e3s7jrdA.jpg",
+        "selftext": null,
+        "title": "Oh algos, oh algos - whereforth are thou true price discovery on lit ??? DRS",
+        "permalink": "/r/Superstonk/comments/xouy8d/oh_algos_oh_algos_whereforth_are_thou_true_price/",
+        "scores": {
+            "Negativo": 0.2070314586162567,
+            "Neutro": 0.7691280245780945,
+            "Positivo": 0.023840541020035744
+        }
+    },
+    {
+        "id": "17yvolc",
+        "thumbnail": "https://b.thumbs.redditmedia.com/J8K8pB2X0a4r3YGf0lafp-vMJ5pL5ufqHEVNS8jf9xg.jpg",
+        "selftext": null,
+        "title": "Silencio por favor, est\u00e1 a punto de hacer algo est\u00fapido",
+        "permalink": "/r/argentina/comments/17yvolc/silencio_por_favor_est\u00e1_a_punto_de_hacer_algo/",
+        "scores": {
+            "Negativo": 0.04528922587633133,
+            "Neutro": 0.7642011046409607,
+            "Positivo": 0.19050966203212738
+        }
+    },
+    {
+        "id": "16z0nlp",
+        "thumbnail": "https://b.thumbs.redditmedia.com/QhV7aT60Plo9SuSxq1idKVwQBceIxSercHWplZeCZEs.jpg",
+        "selftext": "This post is about what happened the last week (3 days), hopefully you were active in the market, if not, this post won't be useful for you.\n\nThe explanation of my trades is going to be *short and concise*, in this case an explanation is kinda necessary given the output of trades and how much long and short positions were intersect\n\nps. I was actively commenting in the daily thread the whole week (as always), someone may remember\n\n**PRE BATTLE**\n\nAs I've been warning days ago [https://www.reddit.com/r/wallstreetbets/comments/16tgffz/comment/k2eym4g/?utm\\_source=share&amp;utm\\_medium=web2x&amp;context=3](https://www.reddit.com/r/wallstreetbets/comments/16tgffz/comment/k2eym4g/?utm_source=share&amp;utm_medium=web2x&amp;context=3)\n\nmarket was preparing a set up for a pump, why? market depth, momentum and VIX\n\nhttps://preview.redd.it/7ojzvsuhwyrb1.png?width=1793&amp;format=png&amp;auto=webp&amp;s=7d179298e34571717a208594a3d377da1c843e77\n\nblue: SPY\n\nOrange: technical market depth = S&amp;P 500 % Stocks above 50ma\n\nred: VVIX/VIX ratio\n\nwhite: VIX3m/VIX ratio\n\nso after being bearish since the top, I found a few interesting things and that changed my short-term market view, in brief:\n\n1)the market depth (50d) ended at approx 15%, same levels as the banking crisis and 2022 first legdown Apr-Jun, 200d is not showed in the chart but has similar paradigm\n\nboth cases had bullish effect &gt; big buyers stepping in (just short term effect, nothing to do with mid/long term market drivers)\n\n2) VVIX/VIX ratio at same levels as the first correction from the top\n\nthe implied Vol of Vix is compleley different compared to the 2022 legdowns, not just that, the structured donwtrend of the ratio itself.\n\nIn my opinion that's a red flag: it signals a different type of legdown, eventually with more momentum rallies... which means we prob won't have a clear downtrend\\*\n\nthe market is still overvalued on every total valuation metric, nothing changes my long term bearish view (gonna do a post about that)\n\n3) VIX3m/VIX ratio extremely low approaching SVB crash and Jan levels: VIX always tends to have lower values than its 3 month version, any anomaly in the ratio does not last in normal market scenarios.\n\nthis was my thesis, theory is easy but going long while the trend was still down is not easy in practice (when it comes to ultra leveraged positions)\n\n&amp;#x200B;\n\n**THE BATTLE**\n\n[Nasdaq trades 27-29 sep pic 0](https://preview.redd.it/do6qw7p8izrb1.jpg?width=1803&amp;format=pjpg&amp;auto=webp&amp;s=feb56f7d2234a10059dc813d093538e7aa5a6719)\n\n**ps. Every red arrow = short, blue = long, better way to visualize the trades**\n\naround 150 trades in 3 days, mostly Nasdaq but also /es and a few other tickets\n\nI'm not going to expose all trades of course, just the major ones that resulted in approx +120k\n\nthe aforementioned operations are longs 1 closed at 2 and shorts 3 closed at 4 (pic 0)\n\n**SEPTEMBER 27**\n\n[\\/nq pic A](https://preview.redd.it/2qvsk0tfdzrb1.jpg?width=1879&amp;format=pjpg&amp;auto=webp&amp;s=c4548f2d230707347155455bb62d985c33f21d38)\n\nAs mentioned before my intention was to go long, also shorted DXY and went long on gold\n\nguess what happened: I timed perfectly wrong the first intraday top (1-2) and the market dumped\n\nI've opened several long positions trying to time the market but at the same time I used every pump to open a hedge, in this case a 100% hedge bc I was already negative\n\nNasdaq kept going down and I closed every long with limited losses (3) but at the same time the hedges became profitable positions, took profit at every level\n\n(4) after like 15 attempts to time the market, I did it and we had a crazy pump out of nothing\n\n(5) during the mid pump I've added a tranche of hedges to cover my long\n\n(6) used RSI 5m and high ADX values to scalp the downside\n\nI didn't close the major long position, I was expecting further pump the next day\n\n**SEPTEMBER 28**\n\n[\\/nq pic B](https://preview.redd.it/hc36pswgdzrb1.jpg?width=1894&amp;format=pjpg&amp;auto=webp&amp;s=3746e8cda631f0150f67417976ef49c2fe1fee71)\n\n*GDP and Jobless claims day*\n\nNasdaq corrected from the overextension as expected, I used that opportunity to remove all downside hedges (1), also opened a few longs at (2) but closed as soon as Nasdaq reached intraday relative highs\n\nI didn't expect a 2nd straight line pump out of nothing 2 days in a row  so I wasn't positionated intraday but I still had the major long positions from Sep 27, took profit on them at intraday highs\n\nafter that, scalped the downside thanks to momentum and VIX chart\n\n**SEPTEMBER 29**\n\n[\\/nq pic C](https://preview.redd.it/j8t0nyphdzrb1.jpg?width=1890&amp;format=pjpg&amp;auto=webp&amp;s=b6287761e35b14eaf249eb663a2928a7367a6930)\n\n*PCE day and JPM collar*\n\nEU session pumped the US market to crazy levels, also, the market reacted positevely to PCE data\n\nNasdaq ended at both high 1h and 4h RSI values, 4h was a solid level but not extremely overbought (&gt;70 IMO)\n\nwith that being said, we had an extreme SPX p/c open interest with high put OI\n\n[SPX 0dte](https://preview.redd.it/shb9ottxjzrb1.jpg?width=1429&amp;format=pjpg&amp;auto=webp&amp;s=7d283942e276632c0c83c8fc632c90441004dec9)\n\nIn my experience that means the pump was fake, not the first time this happens\n\nJust a few weeks ago we had several days with a set up like that: pump to mess up the unbalanced OI ratio since the majority of SPX options have AM expiration\n\ndifference was the momentum, this time completely the opposite\n\nalso, VIX was already -8% at open and despite the first AM pump it didn't move at all, extremely sus\n\n(1) It took me so many attempts and losses to build up a serious short at the top bc I was completely unhedged to the upside, which means I had to apply a strict Risk/Reward ratio\n\nthe patience (and being cautious) always pays: the market dumped as expected, I added more shorts and at the same time hedges (2) (3) to protect the shorts from any JPM collar typical intraday pumps\n\nI had small losses on hedges and closed the major short (3)\n\n[\\/es all trades](https://preview.redd.it/9mlogc8gzyrb1.jpg?width=1884&amp;format=pjpg&amp;auto=webp&amp;s=96924e40953ef84e3b148834b6d2fe4bee97288e)\n\nI did similar trades on /es too, but smaller positions, reduced output and less bullish\n\ntook multiple losses on gold and took profit on a few DXY shorts aswell\n\n**TRADES**\n\nMajor symbols:\n\n**US500 = SPX futures**\n\n**US100 = Nasdaq futures**\n\nhttps://preview.redd.it/g1tvoqsvezrb1.jpg?width=805&amp;format=pjpg&amp;auto=webp&amp;s=199bb55a2fd4d801e016d18f2381b775139243f6\n\ntrades in order open &gt; closed, september 27-29\n\nhttps://preview.redd.it/ir8y1wuzzyrb1.jpg?width=1840&amp;format=pjpg&amp;auto=webp&amp;s=da4019a8685300d029ac575fd18e7d3334cda396\n\n&amp;#x200B;\n\nhttps://preview.redd.it/ch2nbb110zrb1.jpg?width=1831&amp;format=pjpg&amp;auto=webp&amp;s=77acc9285484c32fe4fb1c59a64a80a535d3ec0d\n\n&amp;#x200B;\n\nhttps://preview.redd.it/0h37ik220zrb1.jpg?width=1833&amp;format=pjpg&amp;auto=webp&amp;s=656e11f3044303e01784256a5905acab8e8a1483\n\n&amp;#x200B;\n\nhttps://preview.redd.it/sb34npz20zrb1.jpg?width=1839&amp;format=pjpg&amp;auto=webp&amp;s=3829033f66bcf10fed9a872243d31a44380f3901\n\n&amp;#x200B;\n\n[$233k tot](https://preview.redd.it/s9y3wh240zrb1.jpg?width=1836&amp;format=pjpg&amp;auto=webp&amp;s=52e34be116d46055ecf33fdee42c67b508be61f4)\n\n&amp;#x200B;\n\nhttps://preview.redd.it/fcpxuq4z4zrb1.jpg?width=768&amp;format=pjpg&amp;auto=webp&amp;s=1ea051cdee6b9cb42ca7e44da2ab94a351bdac16",
+        "title": "+233k destroying algos",
+        "permalink": "/r/wallstreetbets/comments/16z0nlp/233k_destroying_algos/",
+        "scores": {
+            "Negativo": 0.46050044894218445,
+            "Neutro": 0.5112929344177246,
+            "Positivo": 0.028206603601574898
+        }
+    }
+]

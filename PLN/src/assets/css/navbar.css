@@ -1,0 +1,47 @@
+:root {
+    --bg-color-body: #1f262f;
+    --bg-color-sidebar: #191c24;
+    --bg-color-navbar: #191c24;
+    --bg-color-card: #191c24;
+    --text-color: #f8f8f8;
+    --text-after-color: #1d232b;
+}
+
+span#nav-main-title {
+    font-size: 1rem;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, .7);
+}
+
+span.nav-main-title {
+    padding-left: 150px;
+}
+
+span.nav-main-title-extra {
+    padding-left: 32px;
+}
+
+div#dropdown-profile {
+    position: absolute;
+    display: none;
+    top: 50px;
+    width: 165px;
+    padding: 10px 0px;
+    background-color: var(--bg-color-sidebar);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+div#dropdown-profile a a:hover {
+    background-color: var(--bg-color-sidebar);
+}
+
+span.profile-images {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f8b60096;
+    text-align: center;
+    line-height: 30px;
+    color: #ffffff96;
+}

@@ -1,0 +1,58 @@
+:root {
+    --bg-color-body: #1f262f;
+    --bg-color-sidebar: #191c24;
+    --bg-color-navbar: #191c24;
+    --bg-color-card: #191c24;
+    --text-color: #f8f8f8;
+}
+
+div.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+div.modal-content {
+    background: var(--bg-color-body);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 40%;
+    max-width: 90%;
+    height: auto;
+    text-align: center;
+}
+
+h2.modal-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+div.modal-body {
+    margin-bottom: 1.5rem;
+    overflow-y: hidden;
+}
+
+div.modal-footer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+div.modal-footer button.btn {
+    min-width: 100px;
+}
+
+@media (max-width: 992px) {
+    div.modal-content {
+        width: 90%;
+
+    }
+}

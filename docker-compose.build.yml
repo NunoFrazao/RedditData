@@ -1,0 +1,98 @@
+version: '3.9'
+
+networks:
+  isaws:
+    driver: bridge
+
+
+services:
+  laravel:
+    build:
+      args:
+        user: leandro
+        uid: 1001
+      context: ./PLN-API
+      dockerfile: Dockerfile_build
+    container_name: laravel
+    ports:
+      - "9000:9000"
+    restart: unless-stopped
+    networks:
+      - isaws
+
+
+  database:
+    build:
+      context: ./mysql
+      dockerfile: Dockerfile
+    container_name: database
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: isaws
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql/
+    networks:
+      - isaws
+
+  nginx:
+    container_name : nginx
+    restart: unless-stopped
+    build: 
+      context: .
+      dockerfile: ./nginx/Dockerfile_build
+    environment:
+      VITE_API_DOMAIN: "http://laravel:9000/"
+      VITE_WS_CONNECTION: "http://websocket:9001/"
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx/test.conf:/etc/nginx/conf.d/default.conf
+      #- ./PLN/dist:/var/www/isaws/vue
+      #- ./PLN-API/:/var/www/isaws/laravel
+    links:
+      - laravel
+    depends_on:
+      - laravel
+      - database
+      - search-engine
+    networks:
+      - isaws
+
+  search-engine:
+    build:
+      context: ./search-engine
+      dockerfile: Dockerfile_build
+    container_name: search-engine
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    networks:
+      - isaws
+
+  # analyse-engine:
+  #   build:
+  #     context: ./PLN-API/pythonProject4
+  #     dockerfile: Dockerfile
+  #   container_name: analyse-engine
+  #   restart: unless-stopped
+  #   ports:
+  #     - "8081:8080"
+  #   networks:
+  #     - isaws     
+
+  websocket:
+    build:
+      context: ./websocket_server
+      dockerfile: Dockerfile
+    container_name: websocket
+    ports:
+      - "8082:8080"
+    networks:
+      - isaws   
+
+volumes:
+  mysql_data:
+    driver: local

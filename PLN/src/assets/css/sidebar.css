@@ -1,0 +1,36 @@
+span.profile-images-sidebar {
+    border-radius: 50%;
+    background-color: #f8b60096;
+    text-align: center;
+    line-height: 30px;
+    color: #ffffff96;
+}
+
+.router-link-active {
+    position: relative;
+}
+
+.router-link-active::before {
+    content: "";
+    width: 3px;
+    height: 100%;
+    background: #f8b400;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.router-link-active > a {
+    color: #ffffff !important;
+    background: #13151c !important;
+}
+
+.routerlink-anc:hover > a {
+    color: #d6d6d6 !important;
+    background: #161820 !important;
+}
+
+.router-link-active:hover > a {
+    background: #13151c !important;
+}

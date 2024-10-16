@@ -1,0 +1,221 @@
+:root {
+    --bg-color-body: #1f262f;
+    --bg-color-sidebar: #191c24;
+    --bg-color-navbar: #191c24;
+    --bg-color-card: #191c24;
+    --text-color: #f8f8f8;
+}
+
+.ag-theme-quartz {
+    /* Changes the color of the grid text */
+    --ag-foreground-color: var(--text-color);
+    /* Changes the color of the grid background */
+    --ag-background-color: var(--bg-color-card);
+    /* Changes the header color of the top row */
+    --ag-header-background-color: var(--bg-color-sidebar);
+    /* Changes the hover color of the row*/
+    --ag-row-hover-color: rgba(255, 170, 0, 0.1);
+}
+
+div.user-image {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid #ffab00;
+    color: #ffab00;
+}
+
+span.user-image-in {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+button#confirm-changes:disabled {
+    cursor: inherit;
+}
+
+div.info-section {
+    display: flex;
+}
+
+div.palette-container {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.palette-item {
+    display: flex;
+    align-items: center;
+}
+
+div.palette-item input[type="radio"] {
+    margin-right: 10px;
+}
+
+div.color-squares {
+    display: flex;
+    margin-top: 0;
+}
+
+div.color-square {
+    width: 40px;
+    height: 20px;
+    /* margin-right: 5px; */
+    border: 1px solid #e7e7e7;
+}
+
+span.badge-rate {
+    width: 60px;
+    text-align: left;
+}
+
+a.see-reactive img {
+    transition: all 0.3s ease;
+}
+
+a.see-reactive:hover img,
+a.see-reactive:hover div::before {
+    border: 1px solid #ffab00;
+}
+
+div.spinner {
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid #ffaa00;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    animation: spin 2s linear infinite;
+}
+
+div#div-search-words {
+    border: 2px solid #ffaa0046;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+div#div-user-data {
+    margin-left: 75px;
+}
+
+div.v-table {
+    background-color: transparent !important;
+    color: var(--text-color);
+}
+
+input[type="radio"].styled-radio {
+    display: none;
+}
+
+input[type="radio"].styled-radio+label {
+    position: relative;
+    cursor: pointer;
+    padding-left: 30px;
+    display: inline-flex;
+    align-items: center;
+    font-size: 16px;
+    color: #ffffff;
+    transition: color 0.3s ease-in-out;
+}
+
+/* The custom radio button */
+input[type="radio"].styled-radio+label::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    border: 2px solid #aaa;
+    border-radius: 50%;
+    background: transparent;
+    position: absolute;
+    left: 0;
+    margin-top: 7px;
+    transition: border-color 0.3s ease-in-out, background 0.3s ease-in-out;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+input[type="radio"].styled-radio:checked+label::before {
+    border-color: #ffaa00;
+    background: #ffaa00;
+    box-shadow: 0 0 10px rgba(255, 170, 0, 0.5);
+}
+
+/* Hover state for the label */
+input[type="radio"].styled-radio+label:hover {
+    color: #ffaa00;
+}
+
+/* Focus state for accessibility */
+input[type="radio"].styled-radio:focus+label::before {
+    outline: 2px solid #ffaa00;
+    outline-offset: 2px;
+}
+
+/* Color squares container */
+.color-squares {
+    display: flex;
+}
+
+.color-square {
+    width: 20px;
+    height: 20px;
+    margin-right: 0;
+    border: 1px solid #ccc;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+/* Hover effects */
+.color-square:hover {
+    transform: rotate(10deg) scale(1.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 69, 0, 0.1);
+    /* Slightly lighter shade */
+    border-color: #ffaa00;
+}
+
+/* Different hover effect for selected state */
+input[type="radio"].styled-radio:checked+label~.color-squares .color-square:hover {
+    transform: rotate(-10deg) scale(1.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 69, 0, 0.1);
+    /* Slightly lighter shade */
+    border-color: #ff4500;
+}
+
+@media (max-width: 992px) {
+    div.palette-container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    div.palette-container {
+        justify-content: inherit;
+        flex-direction: column;
+    }
+
+    div.info-section {
+        display: block;
+    }
+
+    div#div-user-data {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    div.user-image {
+        width: 100%;
+        height: 100px;
+    }
+}

@@ -1,0 +1,18 @@
+gnorar diretórios de configuração da IDE
+.idea
+
+# Ignorar caches do Python
+__pycache__
+
+# Ignorar ambientes virtuais
+venv
+
+# Ignorar outros arquivos e diretórios que não são necessários para o build
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Ignorar arquivos de controle de versão
+.git
+.gitignore

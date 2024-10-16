@@ -1,0 +1,59 @@
+ h4.first-title {
+     position: relative;
+     margin-bottom: 25px;
+     letter-spacing: 3px;
+ }
+
+ h4.first-title::before {
+     content: "";
+     position: absolute;
+     bottom: 10px;
+     width: 100px;
+     height: 2px;
+     background: rgba(255, 171, 0, 0);
+     background: linear-gradient(90deg, #ffab00 0%, rgba(255, 171, 0, 0) 100%);
+     opacity: .5;
+ }
+
+ h4.title-home::before {
+     left: 12px;
+ }
+
+ div.main-panel-login {
+     height: 100vh !important;
+     padding-top: 0 !important;
+ }
+
+ div.card-shadow {
+     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+ }
+
+ .sidebar {
+     position: fixed;
+     height: 100vh;
+ }
+
+ @media (max-width: 991px) {
+     .page-body-wrapper {
+         padding-left: 0;
+     }
+ }
+ 
+ @media (max-width: 768px) {
+    div#div-search-data h4 {
+        font-size: .8rem;
+    }
+
+    div#div-filters {
+        padding-left: 0;
+        padding-right: 0;
+    }
+ }
+ 
+ @media (max-width: 575px) {
+    div#div-filter-model {
+        padding-top: 20px;
+    }
+ }
+
+ 

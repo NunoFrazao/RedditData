@@ -1,0 +1,139 @@
+:root {
+    --bg-color-body: #1f262f;
+    --bg-color-sidebar: #191c24;
+    --bg-color-navbar: #191c24;
+    --bg-color-card: #191c24;
+    --text-color: #f8f8f8;
+    --text-after-color: #1d232b;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    /* height: 100vh; */
+    margin: 0;
+    padding: 0;
+    line-height: 1.42857;
+    font-size: 14px;
+    color: var(--text-color) !important;
+    background-color: #1f262f;
+    /* overflow: hidden; */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    scroll-behavior: smooth;
+    z-index: -2;
+}
+
+body::after {
+    content: "PLN";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 150px;
+    height: 100px;
+    transform: translate(-50%, -50%);
+    display: grid;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 15px;
+    color: var(--text-after-color) !important;
+    z-index: -1;
+}
+
+.custom-toast {
+    border-radius: 0 !important;
+}
+
+a.routerlink-anc:hover {
+    text-decoration: none;
+}
+
+.dropdown-menu {
+    background-color: var(--bg-color-navbar) !important;
+}
+
+
+@media (max-width: 500px) {
+    body::after {
+        margin-top: 50px;
+    }
+}
+
+/* INPUTS DISABLED & AUTOFILL */
+
+input:auto-fill {
+    background-color: #2A3038 !important;
+}
+
+input:-webkit-autofill,
+.form-control:focus {
+    border: 1px solid #ffaa003e !important;
+    background-color: #2A3038 !important;
+}
+
+input:disabled {
+    background-color: #2A3038 !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    border: 1px solid rgba(71, 164, 71, 0.5);
+    -webkit-text-fill-color: #fff;
+    -webkit-box-shadow: 0 0 0px 1000px #2A3038 inset;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+/* SELECTION */
+
+::selection {
+    background: rgba(184, 184, 184, 0.6);
+}
+
+/* SCROLL BAR */
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1f262f;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #171b21;
+    border-radius: 40px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #aaa;
+}
+
+/* COLORS */
+
+body {
+    background-color: var(--bg-color-body) !important;
+}
+
+.sidebar {
+    background-color: var(--bg-color-sidebar) !important;
+}
+
+.sidebar-brand-wrapper {
+    background-color: var(--bg-color-sidebar) !important;
+}
+
+.navbar {
+    background-color: var(--bg-color-navbar) !important;
+}
+
+.card {
+    background-color: var(--bg-color-card) !important;
+    overflow-x: hidden;
+}

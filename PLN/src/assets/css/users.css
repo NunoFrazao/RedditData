@@ -1,0 +1,95 @@
+:root {
+    --bg-color-body: #1f262f;
+    --bg-color-sidebar: #191c24;
+    --bg-color-navbar: #191c24;
+    --bg-color-card: #191c24;
+    --text-color: #f8f8f8;
+}
+
+.ag-theme-quartz {
+    /* Changes the color of the grid text */
+    --ag-foreground-color: var(--text-color);
+    /* Changes the color of the grid background */
+    --ag-background-color: var(--bg-color-card);
+    /* Changes the header color of the top row */
+    --ag-header-background-color: var(--bg-color-sidebar);
+    /* Changes the hover color of the row*/
+    --ag-row-hover-color: rgba(255, 170, 0, 0.1);
+}
+
+div.user-image-table {
+    position: relative;
+    width: 50px;
+    padding: 10px;
+    border: 1px solid #a2a2a2;
+    color: #a2a2a2;
+}
+
+span.user-image-in-table {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+}
+
+div.user-image-table:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #191c24;
+}
+
+button[disabled] {
+    cursor: inherit !important;
+}
+
+i {
+    cursor: pointer;
+}
+
+/* Hide the default checkbox */
+input[type="checkbox"].styled-checkbox {
+    display: none;
+}
+
+/* Style the label */
+.styled-checkbox-label {
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #ffffff;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Custom checkbox design */
+input[type="checkbox"].styled-checkbox + .styled-checkbox-label::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    border: 2px solid #aaa;
+    background: transparent;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: border-color 0.3s ease-in-out, background 0.3s ease-in-out;
+}
+
+/* Checkbox checked state */
+input[type="checkbox"].styled-checkbox:checked + .styled-checkbox-label::before {
+    background: #ffaa00;
+    border-color: #ffaa00;
+    box-shadow: 0 0 10px rgba(255, 170, 0, 0.5);
+}
+
+/* Checkbox hover state */
+input[type="checkbox"].styled-checkbox + .styled-checkbox-label:hover {
+    color: #ffaa00;
+}
+
+/* Checkbox focus state for accessibility */
+input[type="checkbox"].styled-checkbox:focus + .styled-checkbox-label::before {
+    outline: 2px solid #ffaa00;
+    outline-offset: 2px;
+}
